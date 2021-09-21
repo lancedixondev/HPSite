@@ -19,6 +19,7 @@ a {
     top:0;
     width: 100%;
     background-color: rgb(0, 0, 0, 0.7);
+    z-index:3;
 }
 
 
@@ -86,7 +87,7 @@ p {
 }
 
 body{
- background-color: rgb(0, 0, 0);
+ background-color: rgb(20, 21, 28);
 }
 
 .hero{
@@ -175,5 +176,62 @@ body{
 
 
 .button2:hover {background-color: #514a92}
+
+.cool-castle{
+    color:white;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.682), rgba(44, 50, 67, 0.308)), url(./Assets/coolcastle.jpeg);
+    background-size: 1000px 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+}
+
+.cool-castle-text{
+    color:white;
+    text-align: right;
+    word-wrap: break-word;
+    width: 400px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.cool-castle img{
+    width: 1000px;
+    height: 500px;
+    right: 0px;
+    
+}
+
+.cool-castle h1{
+    font-family: 'bluu next';
+}
+
+.cool-train{
+    color:white;
+    background-image: linear-gradient(90deg, rgba(61, 60, 60, 0.209), rgba(0, 0, 0, 0.682)), url(./Assets/cooltrain.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1000px 350px;
+    height: 600px;
+    text-align: left;
+    word-wrap: break-word;
+    
+}
+
+.cool-train-text{
+    color:white;
+    text-align: left;
+    word-wrap: break-word;
+    width: 400px;
+    padding-left: 875px;
+}
+
+.cool-train img{
+    width: 1000px;
+    height: 350px;
+}
+
+.cool-train h1{
+    font-family: 'bluu next';
+}
 
 
